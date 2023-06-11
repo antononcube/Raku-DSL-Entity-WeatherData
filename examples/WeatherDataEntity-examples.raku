@@ -13,8 +13,9 @@ my $pCOMMAND = DSL::Entity::WeatherData::Grammar;
 
 $pCOMMAND.set-resources(DSL::Entity::WeatherData::resource-access-object());
 
-say "Words    : ", DSL::Entity::WeatherData::resource-access-object().getKnownNameWords.map({ $_.keys => $_.value.elems });
-say "Entities : ", DSL::Entity::WeatherData::resource-access-object().getKnownNames.map({ $_.keys => $_.value.elems });
+say "Words        : ", DSL::Entity::WeatherData::resource-access-object().getKnownNameWords.map({ $_.keys => $_.value.elems });
+say "Entity Names : ", DSL::Entity::WeatherData::resource-access-object().getKnownNames.map({ $_.keys => $_.value.elems });
+say "Entities     : ", DSL::Entity::WeatherData::resource-access-object().getNameToEntityID.map({ $_.keys => $_.value.elems });
 
 say $pCOMMAND.parse('max temperature', rule => 'weather-data-entity-command');
 
