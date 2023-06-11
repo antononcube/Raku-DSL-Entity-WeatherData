@@ -1,0 +1,45 @@
+{
+  "name": "DSL::Entity::WeatherData",
+  "description": "Grammar and role for metadata entities: data types, column names, schema names, etc.",
+  "version": "0.1.0",
+  "perl": "6.d",
+  "authors": [
+    "Anton Antonov"
+  ],
+  "auth": "zef:antononcube",
+  "depends": [
+    "DSL::Shared:ver<0.1.8+>"
+  ],
+  "build-depends": [],
+  "test-depends": [],
+  "provides": {
+    "DSL::Entity::WeatherData": "lib/DSL/Entity/WeatherData.rakumod",
+    "DSL::Entity::WeatherData::Actions::Bulgarian::Standard": "lib/DSL/Entity/WeatherData/Actions/Bulgarian/Standard.rakumod",
+    "DSL::Entity::WeatherData::Actions::Raku::System": "lib/DSL/Entity/WeatherData/Actions/Raku/System.rakumod",
+    "DSL::Entity::WeatherData::Actions::WL::Entity": "lib/DSL/Entity/WeatherData/Actions/WL/Entity.rakumod",
+    "DSL::Entity::WeatherData::Actions::WL::System": "lib/DSL/Entity/WeatherData/Actions/WL/System.rakumod",
+    "DSL::Entity::WeatherData::Grammar": "lib/DSL/Entity/WeatherData/Grammar.rakumod",
+    "DSL::Entity::WeatherData::Grammar::EntityNames": "lib/DSL/Entity/WeatherData/Grammar/EntityNames.rakumod",
+    "DSL::Entity::WeatherData::ResourceAccess": "lib/DSL/Entity/WeatherData/ResourceAccess.rakumod"
+  },
+  "resources": [
+    "VariableNameToEntityID_EN.csv",
+    "StationNameToEntityID_EN.csv"
+  ],
+  "license": "Artistic-2.0",
+  "tags": [
+    "data",
+    "dataset",
+    "entity",
+    "interpreter",
+    "ner",
+    "parser",
+    "station",
+    "variable",
+    "weather data",
+    "weather station",
+    "weather"
+  ],
+  "api": "1",
+  "source-url": "https://github.com/antononcube/Raku-DSL-Entity-WeatherData.git"
+}

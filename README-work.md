@@ -32,36 +32,13 @@ $pCOMMAND.set-resources(DSL::Entity::WeatherData::resource-access-object());
 
 say $pCOMMAND.parse('MaxTemperature');
 ```
-```
-# ｢MaxTemperature｣
-#  weather-data-entity-command => ｢MaxTemperature｣
-#   entity-variable-name => ｢MaxTemperature｣
-#    0 => ｢MaxTemperature｣
-#     entity-name-part => ｢MaxTemperature｣
-```
 
 ```perl6
 say $pCOMMAND.parse('cloud cover fraction');
 ```
-```
-# ｢cloud cover fraction｣
-#  weather-data-entity-command => ｢cloud cover fraction｣
-#   entity-variable-name => ｢cloud cover fraction｣
-#    0 => ｢cloud cover fraction｣
-#     entity-name-part => ｢cloud｣
-#     entity-name-part => ｢cover｣
-#     entity-name-part => ｢fraction｣
-```
 
 ```perl6
 say $pCOMMAND.parse('KACQ');
-```
-```
-# ｢KACQ｣
-#  weather-data-entity-command => ｢KACQ｣
-#   entity-station-name => ｢KACQ｣
-#    0 => ｢KACQ｣
-#     entity-name-part => ｢KACQ｣
 ```
 
 ------

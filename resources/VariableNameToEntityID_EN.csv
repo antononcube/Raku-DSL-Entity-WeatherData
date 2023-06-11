@@ -1,0 +1,87 @@
+Name,EntityID
+alternate standard names,AlternateStandardNames
+cloud cover fraction,CloudCoverFraction
+cloud height,CloudHeight
+cloud types,CloudTypes
+conditions,Conditions
+coordinates,Coordinates
+dew point,DewPoint
+elevation,Elevation
+humidity,Humidity
+latitude,Latitude
+longitude,Longitude
+max temperature,MaxTemperature
+max wind speed,MaxWindSpeed
+mean dew point,MeanDewPoint
+mean humidity,MeanHumidity
+mean pressure,MeanPressure
+mean station pressure,MeanStationPressure
+mean temperature,MeanTemperature
+mean visibility,MeanVisibility
+mean wind chill,MeanWindChill
+mean wind speed,MeanWindSpeed
+memberships,Memberships
+min temperature,MinTemperature
+ncdcid,NCDCID
+precipitation amount,PrecipitationAmount
+precipitation rate,PrecipitationRate
+precipitation types,PrecipitationTypes
+pressure,Pressure
+pressure tendency,PressureTendency
+snow accumulation,SnowAccumulation
+snow accumulation rate,SnowAccumulationRate
+snow depth,SnowDepth
+station name,StationName
+station pressure,StationPressure
+temperature,Temperature
+total precipitation,TotalPrecipitation
+visibility,Visibility
+wbanid,WBANID
+wind chill,WindChill
+wind direction,WindDirection
+wind gusts,WindGusts
+wind speed,WindSpeed
+wmoid,WMOID
+AlternateStandardNames,AlternateStandardNames
+CloudCoverFraction,CloudCoverFraction
+CloudHeight,CloudHeight
+CloudTypes,CloudTypes
+Conditions,Conditions
+Coordinates,Coordinates
+DewPoint,DewPoint
+Elevation,Elevation
+Humidity,Humidity
+Latitude,Latitude
+Longitude,Longitude
+MaxTemperature,MaxTemperature
+MaxWindSpeed,MaxWindSpeed
+MeanDewPoint,MeanDewPoint
+MeanHumidity,MeanHumidity
+MeanPressure,MeanPressure
+MeanStationPressure,MeanStationPressure
+MeanTemperature,MeanTemperature
+MeanVisibility,MeanVisibility
+MeanWindChill,MeanWindChill
+MeanWindSpeed,MeanWindSpeed
+Memberships,Memberships
+MinTemperature,MinTemperature
+NCDCID,NCDCID
+PrecipitationAmount,PrecipitationAmount
+PrecipitationRate,PrecipitationRate
+PrecipitationTypes,PrecipitationTypes
+Pressure,Pressure
+PressureTendency,PressureTendency
+SnowAccumulation,SnowAccumulation
+SnowAccumulationRate,SnowAccumulationRate
+SnowDepth,SnowDepth
+StationName,StationName
+StationPressure,StationPressure
+Temperature,Temperature
+TotalPrecipitation,TotalPrecipitation
+Visibility,Visibility
+WBANID,WBANID
+WindChill,WindChill
+WindDirection,WindDirection
+WindGusts,WindGusts
+WindSpeed,WindSpeed
+WMOID,WMOID
