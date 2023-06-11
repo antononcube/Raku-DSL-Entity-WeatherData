@@ -15,6 +15,7 @@ class DSL::Entity::WeatherData::ResourceAccess
         my @fileNames = <Variable Station>;
         my %resources = @fileNames Z=> @fileNames.map({ $_ ~  'NameToEntityID_EN.csv' });
         %resources = %resources.map({ $_.key => %?RESOURCES{$_.value} });
+        #note %resources.map({ $_ => slurp($_.value).lines.elems });
         return %resources;
     }
 
