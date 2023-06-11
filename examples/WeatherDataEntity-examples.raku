@@ -13,8 +13,8 @@ my $pCOMMAND = DSL::Entity::WeatherData::Grammar;
 
 $pCOMMAND.set-resources(DSL::Entity::WeatherData::resource-access-object());
 
-note DSL::Entity::WeatherData::resource-access-object().getKnownNameWords.raku;
-note DSL::Entity::WeatherData::resource-access-object().getKnownNames.raku;
+say "Words    : ", DSL::Entity::WeatherData::resource-access-object().getKnownNameWords.map({ $_.keys => $_.value.elems });
+say "Entities : ", DSL::Entity::WeatherData::resource-access-object().getKnownNames.map({ $_.keys => $_.value.elems });
 
 say $pCOMMAND.parse('max temperature', rule => 'weather-data-entity-command');
 
@@ -30,11 +30,11 @@ my @testCommands = (
 'cloud cover fraction',
 'cloud cover fractions',
 'KACQ',
+'F0664',
 );
 
 
-#my @targets = <WL-Entity WL-System Raku::System>;
-my @targets = <WL-Entity>;
+my @targets = <WL-Entity WL-System Raku::System>;
 
 my @tbl =
         gather {
