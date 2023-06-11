@@ -68,16 +68,7 @@ say $pCOMMAND.parse('KACQ');
 
 ## References
 
-### Metadata
-
-[SO1] https://www.schema.org.
-
 ### Datasets
-
-[VAB1] Vincent Arel-Bundock,
-[Rdatasets](https://github.com/vincentarelbundock/Rdatasets/),
-(2020),
-[GitHub/vincentarelbundock](https://github.com/vincentarelbundock/).
 
 [WRI1]
 Wolfram Research (2007),
